@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <h3>Meyve Bölümü</h3>
     <script type="text/javascript" lang="javascript">
         let meyveler = ["Elma", "Armut", "Portakal"] // Diziye eklenen her index değeri listeye dahil olacaktır.
         document.write(meyveler + "<br><br>");
