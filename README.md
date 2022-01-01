@@ -1,2 +1,2 @@
-# jscamp
-Javascript eğitim kampı 1.Ders örnek çalışması.
+for in 'list'
+HTML'de bildiğimiz listeleme komutunu, Javascript içerisinde for döngüsü ile oluşturup geri döndüreceğiz.
