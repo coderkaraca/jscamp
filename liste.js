@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="author" content="Gökhan Karaca">
+    <meta name="keywords" content="Javascript" , "HTML" , "CSS">
     <title>JAVASCRİPT</title>
 </head>
 
 <body>
     <script type="text/javascript" lang="javascript">
-        let krediler = ["Kamu Kredileri", "Konut Kredileri", "Tarım Kredileri"]
-        document.write(krediler + "<br><br>");
+        let meyveler = ["Elma", "Armut", "Portakal"] // Diziye eklenen her index değeri listeye dahil olacaktır.
+        document.write(meyveler + "<br><br>");
 
-        for(let i = 0; i<krediler.length; ++i){
-            document.write("<li>" + krediler[i] + "</li>");
+        for (let i = 0; i < meyveler.length; ++i) {
+            document.write("<li>" + meyveler[i] + "</li>");
         }
 
     </script>
